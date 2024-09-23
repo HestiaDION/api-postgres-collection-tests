@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Collections API Postgres Hestia",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

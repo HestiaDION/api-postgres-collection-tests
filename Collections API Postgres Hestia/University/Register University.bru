@@ -1,0 +1,24 @@
+meta {
+  name: Register University
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:8080/hestiaapi/postgres/university/register
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome":"Pedro",
+    "genero":"Masculino",
+    "dt_nascimento":"2000-03-03",
+    "dne":"123456",
+    "bio":"Uma pessoa",
+    "cidade":"Carapicuíba",
+    "universidade":"USP",
+    "telefone":"123678910"
+  }
+}
